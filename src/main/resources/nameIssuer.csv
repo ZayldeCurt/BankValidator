@@ -1,0 +1,4 @@
+issuer;prefix;numberOfChar
+visa;4;16
+master card;51-55;16
+american express;34,37;15

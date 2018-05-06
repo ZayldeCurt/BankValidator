@@ -3,12 +3,12 @@ package pl.sda;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class AlgorithmLuhnaTest {
+public class MyAlgorithmLuhnaTest {
 
     @Test
     public void testAlgorithm(){
         //given
-        AlgorithmLuhna algorithmLuhna = new AlgorithmLuhna();
+        MyAlgorithmLuhna algorithmLuhna = new MyAlgorithmLuhna();
         String numberCardsGood = "4024007189065781";
         //when
         boolean result = algorithmLuhna.checkNumber(numberCardsGood);
@@ -19,7 +19,7 @@ public class AlgorithmLuhnaTest {
     @Test
     public void testAlgorithmWithFalseResult(){
         //given
-        AlgorithmLuhna algorithmLuhna = new AlgorithmLuhna();
+        MyAlgorithmLuhna algorithmLuhna = new MyAlgorithmLuhna();
         String numberCards= "4024007189065782";
         //when
         boolean result = algorithmLuhna.checkNumber(numberCards);

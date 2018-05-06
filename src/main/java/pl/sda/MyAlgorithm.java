@@ -1,5 +1,5 @@
 package pl.sda;
 
-public interface Algorithm {
+public interface MyAlgorithm {
     boolean checkNumber(String numberCard);
 }

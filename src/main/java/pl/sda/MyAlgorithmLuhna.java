@@ -1,7 +1,6 @@
 package pl.sda;
 
-public class AlgorithmLuhna implements Algorithm{
-//    public static boolean checkNumber(String numberCard){
+public class MyAlgorithmLuhna implements MyAlgorithm {
     public  boolean checkNumber(String numberCard){
         String[] numbers=numberCard.split("");
 

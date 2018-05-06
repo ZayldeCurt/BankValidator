@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ReadIssuerTest {
+public class MyReadDateTest {
 
     @Test
     public void testReadDate(){
@@ -39,7 +39,7 @@ public class ReadIssuerTest {
         String filePath = getClass().getClassLoader().getResource(CSV_FILE_NAME).getPath();
 
         //when
-        MyGeneral dateSets=ReadIssuer.readIssuer(filePath);
+        MyGeneral dateSets= MyReadDate.myReadDate(filePath);
 
 
         //then
